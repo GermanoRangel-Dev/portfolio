@@ -305,11 +305,11 @@ a:hover {
      visibility: visible;
 }
 
-.card-portfolio{
+.card-android{
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/portfolio.png');
+     background-image: url('../imagens/bugdroid.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -322,17 +322,17 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-portfolio:hover {
+.card-android:hover {
      filter: unset;
 }
 
-.card-portfolio:hover > .card-wrapper::before {
+.card-android:hover > .card-wrapper::before {
      opacity: 1;
      width: 350px;
      height: 250px;
 }
 
-.card-portfolio > .card-wrapper h2 {
+.card-android > .card-wrapper h2 {
      font-size: 40px;
      
      color: #000000;
@@ -342,7 +342,7 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-portfolio:hover > .card-wrapper p {
+.card-android:hover > .card-wrapper p {
      font-size: 20px;
      font-weight: bold;
      color: #000000;
@@ -350,14 +350,14 @@ a:hover {
      visibility: visible;
 }
 
-.card-jokempo{
+.card-pokedex{
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/jokempo.jpg');
+     background-image: url('../imagens/favicon.png');
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size:contain;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -367,17 +367,17 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-jokempo:hover {
+.card-pokedex:hover {
      filter: unset;
 }
 
-.card-jokempo:hover > .card-wrapper::before {
+.card-pokedex:hover > .card-wrapper::before {
      opacity: 1;
      width: 350px;
      height: 250px;
 }
 
-.card-jokempo > .card-wrapper h2 {
+.card-pokedex > .card-wrapper h2 {
      font-size: 40px;
      color: #1E90FF;
      text-transform: uppercase;
@@ -386,7 +386,7 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-jokempo:hover > .card-wrapper p {
+.card-pokedex:hover > .card-wrapper p {
      font-size: 20px;
      font-weight: bold;
      color: #0000CD;
@@ -394,14 +394,14 @@ a:hover {
      visibility: visible;
 }
 
-.card-gorjeta{
+.card-memoria{
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/calculadora_de_Gorjetas.jpg');
+     background-image: url('../imagens/fundo_card.webp');
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size:contain;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -411,17 +411,17 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-gorjeta:hover {
+.card-memoria:hover {
      filter: unset;
 }
 
-.card-gorjeta:hover > .card-wrapper::before {
+.card-memoria:hover > .card-wrapper::before {
      opacity: 1;
      width: 350px;
      height: 250px;
 }
 
-.card-gorjeta > .card-wrapper h2 {
+.card-memoria > .card-wrapper h2 {
      font-size: 40px;
      
      color: #1E90FF;
@@ -431,7 +431,7 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-gorjeta:hover > .card-wrapper p {
+.card-memoria:hover > .card-wrapper p {
      font-size: 20px;
      font-weight: bold;
      color: #0000CD;
