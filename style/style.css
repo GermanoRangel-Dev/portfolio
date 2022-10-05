@@ -354,7 +354,7 @@ a:hover {
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/favicon.png');
+     background-image: url('../imagens/pokebola.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size:contain;
@@ -398,7 +398,7 @@ a:hover {
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/fundo_card.webp');
+     background-image: url('../imagens/fundo_card.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size:contain;
@@ -424,7 +424,7 @@ a:hover {
 .card-memoria > .card-wrapper h2 {
      font-size: 40px;
      
-     color: #1E90FF;
+     color: #ffffff;
      text-transform: uppercase;
      letter-spacing: 4px;
      margin: 0;
@@ -434,7 +434,7 @@ a:hover {
 .card-memoria:hover > .card-wrapper p {
      font-size: 20px;
      font-weight: bold;
-     color: #0000CD;
+     color: #ffffff;
      opacity: 1;
      visibility: visible;
 }
