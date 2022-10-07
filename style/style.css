@@ -439,11 +439,11 @@ a:hover {
      visibility: visible;
 }
 
-.card-frases{
+.card-cordel{
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/frases_do_dia.jpg');
+     background-image: url('../imagens/cordel.jpeg');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -456,17 +456,17 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-frases:hover {
+.card-cordel:hover {
      filter: unset;
 }
 
-.card-frases:hover > .card-wrapper::before {
+.card-cordel:hover > .card-wrapper::before {
      opacity: 1;
      width: 350px;
      height: 250px;
 }
 
-.card-frases > .card-wrapper h2 {
+.card-cordel > .card-wrapper h2 {
      font-size: 40px;
      
      color: #1E90FF;
@@ -476,7 +476,7 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-frases:hover > .card-wrapper p {
+.card-cordel:hover > .card-wrapper p {
      font-size: 20px;
      font-weight: bold;
      color: #0000CD;
