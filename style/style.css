@@ -484,6 +484,34 @@ a:hover {
      visibility: visible;
 }
 
+.card-tattoo{
+     height: 300px;
+     width: 400px;
+     margin: 3rem 0 0 0;
+     background-image: url('../imagens/tattoo.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:contain;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     filter: grayscale(0.5);
+     color: #ffffff;
+     cursor: pointer;
+     transition: 0.3s;
+}
+
+.card-tattoo:hover {
+     filter: unset;
+}
+
+.card-pokedex:hover > .card-wrapper::before {
+     opacity: 1;
+     width: 350px;
+     height: 250px;
+}
+
+
 /* footer */
 
 .footer {
