@@ -350,11 +350,11 @@ a:hover {
      visibility: visible;
 }
 
-.card-pokedex{
+.card-film{
      height: 300px;
      width: 400px;
      margin: 3rem 0 0 0;
-     background-image: url('../imagens/pokebola.png');
+     background-image: url('../imagens/logo.jpeg');
      background-position: center;
      background-repeat: no-repeat;
      background-size:contain;
@@ -367,17 +367,17 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-pokedex:hover {
+.card-film:hover {
      filter: unset;
 }
 
-.card-pokedex:hover > .card-wrapper::before {
+.card-film:hover > .card-wrapper::before {
      opacity: 1;
      width: 350px;
      height: 250px;
 }
 
-.card-pokedex > .card-wrapper h2 {
+.card-film > .card-wrapper h2 {
      font-size: 40px;
      color: #1E90FF;
      text-transform: uppercase;
@@ -386,7 +386,7 @@ a:hover {
      transition: 0.3s;
 }
 
-.card-pokedex:hover > .card-wrapper p {
+.card-film:hover > .card-wrapper p {
      font-size: 20px;
      font-weight: bold;
      color: #0000CD;
@@ -505,7 +505,7 @@ a:hover {
      filter: unset;
 }
 
-.card-pokedex:hover > .card-wrapper::before {
+.card-film:hover > .card-wrapper::before {
      opacity: 1;
      width: 350px;
      height: 250px;
@@ -528,10 +528,21 @@ a:hover {
 
 /* responsivo mobile */
 
-@media (max-width: 800px) {
+@media (max-width: 796px) {
+     .body{
+       width: 90%;  
+       
+       flex-direction: column;
+       align-items: center;
+     }
      .social-media {
           display: flex;
           flex-direction: column;
+     }
+
+     .menu-itens{
+      text-align: center;
+     
      }
 
      .container {
@@ -543,7 +554,8 @@ a:hover {
      }
 
      .container .card-container:nth-child(1),
-     .container .card-container:nth-child(3) {
+     .container .card-container:nth-child(3),
+     .container .card-container:nth-child(5) {
           flex-direction: column-reverse ;
      }
      
@@ -556,12 +568,15 @@ a:hover {
           width: 90%;
           margin-top: 2rem;
           text-align: center;
-          
      }
-
      .card:hover > .card-wrapper::before{
           height: 190px;
           width: 190px;
 
+     }
+
+     .footer{
+          margin-top: 2rem; 
+          align-items: center;
      }
 }
